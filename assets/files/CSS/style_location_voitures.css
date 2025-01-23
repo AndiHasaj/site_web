@@ -1,0 +1,34 @@
+body {
+    background-image: url('../../videos/car_footage.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Eurostile', sans-serif;
+}
+
+.headline_text {
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.75);
+    margin-top: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Eurostile', sans-serif;
+    text-size-adjust: 150%;
+}
+
+.disabled {
+    color: rgba(75, 75, 75, 0.75);
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.cards_accueil {
+    align-items: center;
+}

@@ -1,0 +1,68 @@
+body {
+    background-image: url('../../images/covers/travels/cover_albania.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Aptos', sans-serif;
+}
+
+.content {
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 24px;
+}
+
+.ct_sector {
+    align-items: baseline;
+}
+
+.ct_title {
+    align-items: baseline;
+}
+
+.ct_text {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.ct_img {
+    display: inline;
+    float: left;
+    align-items: baseline;
+    vertical-align: baseline;
+    margin-left: 24px;
+    margin-right: 12px;
+    width: 384px;
+    height: 256px;
+}
+
+.ct_img_small {
+    width: 128px;
+    height: 96px;
+}
+
+.headline_text {
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.75);
+    margin-top: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Aptos', sans-serif;
+    text-size-adjust: 150%;
+    animation: fadeIn 3s;
+}
+
+.disabled {
+    color: rgba(75, 75, 75, 0.75);
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.cards_accueil {
+    align-items: center;
+}
